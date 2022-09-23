@@ -1,0 +1,61 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    background: url("../imagens/fundo-projeto.jpg") no-repeat top center;
+    height: 98vh;
+    width: 98vw;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+main {
+    height: 100vh;
+    position: relative;
+}
+
+main h1 {
+    
+    text-align: right;
+    font-size: 3em;
+    margin: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+
+section#telefone {
+    position: absolute;
+    height: 627px;
+    width: 311px;
+    background: url(../imagens/frame-iphone.png) no-repeat;
+    transform: translate(3%, 8%) scale(0.8);
+    top: -8%;
+    left: 51%;
+
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 21px;
+    height: 267px;
+    width: 471px;   
+}
+section#redes-sociais img {
+    width: 50px;
+    margin: 2px;
+    border-radius: 14px;
+}
+
+section#redes-sociais {
+    text-align: right;
+}
